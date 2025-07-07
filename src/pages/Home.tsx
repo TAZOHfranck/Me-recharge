@@ -36,7 +36,7 @@ const Home: React.FC<HomeProps> = ({ onRechargeClick }) => {
   return (
     <div className=" bg-gray-900">
       {/* Hero Section */}
-      <section className="relative overflow-hidden opacity-80 bg-center bg-cover">
+      <section   className="  relative overflow-hidden  opacity-80 bg-center bg-cover">
 
         <div className="bg-white dark:bg-gray-900 bg-cover bg-center"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -110,7 +110,7 @@ const Home: React.FC<HomeProps> = ({ onRechargeClick }) => {
             </div>
             <div className="relative">
               <img
-                src={import.meta.env.BASE_URL + '/image.webp'}
+                   src={`${import.meta.env.BASE_URL}image.webp`}
                 alt="Point de vente"
                 className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
@@ -125,7 +125,7 @@ const Home: React.FC<HomeProps> = ({ onRechargeClick }) => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <img
-               src={import.meta.env.BASE_URL + '/transaction.webp'}
+                    src={`${import.meta.env.BASE_URL}transaction.webp`}
                 alt="Mobile Apps"
                 className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
