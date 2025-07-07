@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ onRechargeClick }) => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/photo_2025-07-07_15-51-24-removebg.png" 
+               src={import.meta.env.BASE_URL + '/photo_2025-07-07_15-51-24-removebg.png'} 
               alt="Me Recharge Logo" 
               className="h-10 w-10"
             />

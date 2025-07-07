@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <img 
-                src="/photo_2025-07-07_15-51-24-removebg.png" 
+                   src={import.meta.env.BASE_URL + '/photo_2025-07-07_15-51-24-removebg.png'} 
                 alt="Me Recharge Logo" 
                 className="h-8 w-8"
               />
