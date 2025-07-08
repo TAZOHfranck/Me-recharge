@@ -33,8 +33,9 @@ function App() {
   }
 
   return (
-    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+    
    <GoodDealsProvider>
+     {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
       <Router>
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
           <Header onRechargeClick={() => setIsRechargeModalOpen(true)} />
@@ -64,8 +65,9 @@ function App() {
           />
         </div>
       </Router>
+  {/* </BrowserRouter>      */}
     </GoodDealsProvider>
-// </BrowserRouter>
+
   
   );
 }

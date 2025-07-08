@@ -36,7 +36,7 @@ const Home: React.FC<HomeProps> = ({ onRechargeClick }) => {
   return (
     <div className=" bg-gray-900">
       {/* Hero Section */}
-      <section   className="  relative overflow-hidden  opacity-80 bg-center bg-cover">
+      <section className="relative overflow-hidden bg-[url('/hero.webp')] opacity-80 bg-center bg-cover">
 
         <div className="bg-white dark:bg-gray-900 bg-cover bg-center"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
